@@ -1,0 +1,74 @@
+.navbar {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  font-size: medium;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-left: -40px;
+  background-color: rgba(134, 4, 167, 0.204);
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 10px;
+  display: flex;
+}
+.flex:hover {
+  background-color: rgba(1, 175, 175, 0.086);
+}
+.flex {
+  display: flex;
+  margin: 5px;
+  background-color: rgba(255, 255, 255, 0.504);
+  padding: 5px;
+  border-radius: 5%;
+}
+h1 {
+  text-align: center;
+  text-shadow: 4px 2px 6px rgba(214, 73, 207, 0.491);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1d0bc39f;
+  padding: 10px;
+
+  font-weight: lighter;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(135, 4, 167, 0.577);
+}
+img {
+  width: 150px;
+  border-radius: 30%;
+  margin: 0px;
+  padding: 0px;
+}
+.tooltip {
+  position: relative;
+  display: flex;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  height: auto;
+  background-color: cornsilk;
+  color: rgba(240, 248, 255, 0.285);
+  color: black;
+  border-radius: 5%;
+
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  bottom: -100px;
+  left: 1px;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
